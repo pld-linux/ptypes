@@ -1,0 +1,24 @@
+diff -urN ptypes-2.0.1.orig/src/Makefile.common ptypes-2.0.1/src/Makefile.common
+--- ptypes-2.0.1.orig/src/Makefile.common	2004-04-21 22:00:09.815993112 +0200
++++ ptypes-2.0.1/src/Makefile.common	2004-04-21 22:00:50.326834528 +0200
+@@ -20,7 +20,7 @@
+ 
+ DDEBUG          = -DDEBUG
+ INCDIR          = ../include
+-CXXOPTS         = $(OS_CXXOPTS) $(DDEBUG) -I$(INCDIR) -Wall -O2
++CXXOPTS         = $(OS_CXXOPTS) $(DDEBUG) -I$(INCDIR) -Wall $(OPT)
+ LDLIBS          = $(OS_LDLIBS)
+ 
+ CXXOPTS_ST      = -DPTYPES_ST $(OS_CXXOPTS_ST) $(DDEBUG) -I$(INCDIR) -Wall -O2
+diff -urN ptypes-2.0.1.orig/wshare/Makefile.common ptypes-2.0.1/wshare/Makefile.common
+--- ptypes-2.0.1.orig/wshare/Makefile.common	2004-04-21 22:00:09.830990832 +0200
++++ ptypes-2.0.1/wshare/Makefile.common	2004-04-21 22:01:25.078551464 +0200
+@@ -17,7 +17,7 @@
+ 
+ DDEBUG      = -DDEBUG
+ INCDIR      = ../include
+-CXXOPTS     = $(OS_CXXOPTS) $(DDEBUG) -I$(INCDIR) -Wall -O2
++CXXOPTS     = $(OS_CXXOPTS) $(DDEBUG) -I$(INCDIR) -Wall $(OPT)
+ LDLIBS      = $(OS_LDLIBS)
+ 
+ BINDEST     = ../bin
