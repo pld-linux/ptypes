@@ -1,12 +1,12 @@
 Summary:	C++ Portable Types Library
 Summary(pl):	Przeno¶na biblioteka typów C++
 Name:		ptypes
-Version:	2.0.1
+Version:	2.0.2
 Release:	0.1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://www.melikyan.com/ptypes/%{name}-%{version}.tar.gz
-# Source0-md5:	78338ef651975b535468cfc28f15fc37
+# Source0-md5:	f5a6c90a3f9e89f90f4ea81f71c4ec7d
 Patch0:		%{name}-opt.patch
 URL:		http://www.melikyan.com/ptypes/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
