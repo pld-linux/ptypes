@@ -9,6 +9,7 @@ Source0:	http://www.melikyan.com/ptypes/%{name}-%{version}.tar.gz
 # Source0-md5:	f5a6c90a3f9e89f90f4ea81f71c4ec7d
 Patch0:		%{name}-opt.patch
 URL:		http://www.melikyan.com/ptypes/
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
