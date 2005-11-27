@@ -35,6 +35,7 @@ Summary:	Development files for PTypes
 Summary(pl):	Pliki rozwojowe dla PTypes
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	libstdc++-devel
 
 %description devel
 Header files required for development using PTypes.
