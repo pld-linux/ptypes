@@ -61,6 +61,7 @@ Pakiet ten zawiera statyczn± wersjê biblioteki PTypes.
 
 %build
 %{__make} \
+	CXX="%{__cxx}" \
 	OPT="%{rpmcflags}"
 
 %install
