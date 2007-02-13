@@ -1,5 +1,5 @@
 Summary:	C++ Portable Types Library
-Summary(pl.UTF-8):   Przenośna biblioteka typów C++
+Summary(pl.UTF-8):	Przenośna biblioteka typów C++
 Name:		ptypes
 Version:	2.0.2
 Release:	1
@@ -32,7 +32,7 @@ robotów lub niewizualnych aplikacji klient-serwer dowolnego rodzaju.
 
 %package devel
 Summary:	Development files for PTypes
-Summary(pl.UTF-8):   Pliki rozwojowe dla PTypes
+Summary(pl.UTF-8):	Pliki rozwojowe dla PTypes
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -45,7 +45,7 @@ Pliki nagłówkowe wymagane do tworzenia programów z użyciem PTypes.
 
 %package static
 Summary:	Static version of PTypes library
-Summary(pl.UTF-8):   Biblioteka statyczna PTypes
+Summary(pl.UTF-8):	Biblioteka statyczna PTypes
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
